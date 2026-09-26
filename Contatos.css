@@ -148,3 +148,89 @@ footer{
     padding: 20px;
     margin-top: 40px;
 }
+@media (max-width: 768px) {
+
+    header {
+        min-height: auto;
+        padding: 30px 20px;
+    }
+
+    header > h1 {
+        font-size: 2.2em;
+    }
+
+    nav {
+        padding: 15px 20px;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav > a {
+        padding: 10px 15px;
+        font-size: 0.95rem;
+    }
+
+    main {
+        width: 92%;
+        margin: 30px auto;
+    }
+
+    #contato {
+        padding: 40px 10px;
+    }
+
+    #contato h3 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .descricao {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        line-height: 1.6;
+    }
+
+    .redes {
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 35px;
+    }
+
+    .redes a {
+        width: 100%;
+        justify-content: center;
+        padding: 14px 20px;
+    }
+
+    .redes i {
+        font-size: 22px;
+    }
+
+    form {
+        width: 100%;
+        gap: 15px;
+    }
+
+    form input,
+    form textarea {
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    form textarea {
+        min-height: 150px;
+    }
+
+    form button {
+        width: 100%;
+        padding: 14px;
+        font-size: 17px;
+    }
+
+    footer {
+        padding: 20px;
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+}
